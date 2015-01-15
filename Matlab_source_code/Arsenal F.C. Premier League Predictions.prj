@@ -1,0 +1,176 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3588980137" file="/Users/danielgrewal/Documents/Undergraduate Dissertation/Application_source_code/Arsenal F.C. Premier League Predictions.prj" location="/Users/danielgrewal/Documents/Undergraduate Dissertation/Application_source_code" name="Arsenal F.C. Premier League Predictions" target="target.mlapps" target-name="Package App">
+    <param.appname>Arsenal F.C. Premier League Predictions</param.appname>
+    <param.authnamewatermark>Daniel Grewal</param.authnamewatermark>
+    <param.email>d.grewal187@icloud.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>Prediction application</param.summary>
+    <param.description>Project of an undergraduate student.</param.description>
+    <param.screenshot>${PROJECT_ROOT}/Arsenal-12.jpg</param.screenshot>
+    <param.version>2.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Econometrics Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>125</item>
+    </param.products.id>
+    <param.products.version>
+      <item>8.3</item>
+      <item>3.0</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}/Arsenal F.C. Premier League Predictions.mlappinstall</param.output>
+    <param.guid>f47e5812-bc12-49b7-83ca-a4caafb74136</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/menu_GUI.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/AstonVillaGUI.fig</file>
+      <file>${PROJECT_ROOT}/AstonVillaGUI.m</file>
+      <file>${PROJECT_ROOT}/AutoRegressionGUI.fig</file>
+      <file>${PROJECT_ROOT}/AutoRegressionGUI.m</file>
+      <file>${PROJECT_ROOT}/AutoRegressive.m</file>
+      <file>${PROJECT_ROOT}/ChelseaGUI.fig</file>
+      <file>${PROJECT_ROOT}/ChelseaGUI.m</file>
+      <file>${PROJECT_ROOT}/EvertonGUI.fig</file>
+      <file>${PROJECT_ROOT}/EvertonGUI.m</file>
+      <file>${PROJECT_ROOT}/FulhamGUI.fig</file>
+      <file>${PROJECT_ROOT}/FulhamGUI.m</file>
+      <file>${PROJECT_ROOT}/HullGUI.fig</file>
+      <file>${PROJECT_ROOT}/HullGUI.m</file>
+      <file>${PROJECT_ROOT}/LiverpoolGUI.fig</file>
+      <file>${PROJECT_ROOT}/LiverpoolGUI.m</file>
+      <file>${PROJECT_ROOT}/MakePredictionGUI.fig</file>
+      <file>${PROJECT_ROOT}/MakePredictionGUI.m</file>
+      <file>${PROJECT_ROOT}/ManCityGUI.fig</file>
+      <file>${PROJECT_ROOT}/ManCityGUI.m</file>
+      <file>${PROJECT_ROOT}/ManUnitedGUI.fig</file>
+      <file>${PROJECT_ROOT}/ManUnitedGUI.m</file>
+      <file>${PROJECT_ROOT}/NB_All_Variables.m</file>
+      <file>${PROJECT_ROOT}/NB_Results_CGVariableRemoved.m</file>
+      <file>${PROJECT_ROOT}/NB_Results_GSGCVariablesRemoved.m</file>
+      <file>${PROJECT_ROOT}/NB_Results_HAVariableRemoved.m</file>
+      <file>${PROJECT_ROOT}/NB_Results_LRVariableRemoved.m</file>
+      <file>${PROJECT_ROOT}/NB_Season_GUI.fig</file>
+      <file>${PROJECT_ROOT}/NB_Season_GUI.m</file>
+      <file>${PROJECT_ROOT}/NB_Season_GUI2.fig</file>
+      <file>${PROJECT_ROOT}/NB_Season_GUI2.m</file>
+      <file>${PROJECT_ROOT}/NB_Season_GUI3.fig</file>
+      <file>${PROJECT_ROOT}/NB_Season_GUI3.m</file>
+      <file>${PROJECT_ROOT}/NB_Season_GUI4.fig</file>
+      <file>${PROJECT_ROOT}/NB_Season_GUI4.m</file>
+      <file>${PROJECT_ROOT}/NB_Season_GUI5.fig</file>
+      <file>${PROJECT_ROOT}/NB_Season_GUI5.m</file>
+      <file>${PROJECT_ROOT}/NaiveBayesAllView.fig</file>
+      <file>${PROJECT_ROOT}/NaiveBayesAllView.m</file>
+      <file>${PROJECT_ROOT}/NewcastleGUI.fig</file>
+      <file>${PROJECT_ROOT}/NewcastleGUI.m</file>
+      <file>${PROJECT_ROOT}/NorwichGUI.fig</file>
+      <file>${PROJECT_ROOT}/NorwichGUI.m</file>
+      <file>${PROJECT_ROOT}/Season0001.fig</file>
+      <file>${PROJECT_ROOT}/Season0001.m</file>
+      <file>${PROJECT_ROOT}/Season0102.fig</file>
+      <file>${PROJECT_ROOT}/Season0102.m</file>
+      <file>${PROJECT_ROOT}/Season0203.fig</file>
+      <file>${PROJECT_ROOT}/Season0203.m</file>
+      <file>${PROJECT_ROOT}/Season0304.fig</file>
+      <file>${PROJECT_ROOT}/Season0304.m</file>
+      <file>${PROJECT_ROOT}/Season0405.fig</file>
+      <file>${PROJECT_ROOT}/Season0405.m</file>
+      <file>${PROJECT_ROOT}/Season0506.fig</file>
+      <file>${PROJECT_ROOT}/Season0506.m</file>
+      <file>${PROJECT_ROOT}/Season0607.fig</file>
+      <file>${PROJECT_ROOT}/Season0607.m</file>
+      <file>${PROJECT_ROOT}/Season0708.fig</file>
+      <file>${PROJECT_ROOT}/Season0708.m</file>
+      <file>${PROJECT_ROOT}/Season0809.fig</file>
+      <file>${PROJECT_ROOT}/Season0809.m</file>
+      <file>${PROJECT_ROOT}/Season0910.fig</file>
+      <file>${PROJECT_ROOT}/Season0910.m</file>
+      <file>${PROJECT_ROOT}/Season1011.fig</file>
+      <file>${PROJECT_ROOT}/Season1011.m</file>
+      <file>${PROJECT_ROOT}/Season1112.fig</file>
+      <file>${PROJECT_ROOT}/Season1112.m</file>
+      <file>${PROJECT_ROOT}/Season1213.fig</file>
+      <file>${PROJECT_ROOT}/Season1213.m</file>
+      <file>${PROJECT_ROOT}/Season9697GUI.fig</file>
+      <file>${PROJECT_ROOT}/Season9697GUI.m</file>
+      <file>${PROJECT_ROOT}/Season9798.fig</file>
+      <file>${PROJECT_ROOT}/Season9798.m</file>
+      <file>${PROJECT_ROOT}/Season9899.fig</file>
+      <file>${PROJECT_ROOT}/Season9899.m</file>
+      <file>${PROJECT_ROOT}/Season9900.fig</file>
+      <file>${PROJECT_ROOT}/Season9900.m</file>
+      <file>${PROJECT_ROOT}/SouthamptonGUI.fig</file>
+      <file>${PROJECT_ROOT}/SouthamptonGUI.m</file>
+      <file>${PROJECT_ROOT}/StokeGUI.fig</file>
+      <file>${PROJECT_ROOT}/StokeGUI.m</file>
+      <file>${PROJECT_ROOT}/SunderlandGUI.fig</file>
+      <file>${PROJECT_ROOT}/SunderlandGUI.m</file>
+      <file>${PROJECT_ROOT}/SwanseaGUI.fig</file>
+      <file>${PROJECT_ROOT}/SwanseaGUI.m</file>
+      <file>${PROJECT_ROOT}/TottenhamGUI.fig</file>
+      <file>${PROJECT_ROOT}/TottenhamGUI.m</file>
+      <file>${PROJECT_ROOT}/WestBromGUI.fig</file>
+      <file>${PROJECT_ROOT}/WestBromGUI.m</file>
+      <file>${PROJECT_ROOT}/WestHamGUI.fig</file>
+      <file>${PROJECT_ROOT}/WestHamGUI.m</file>
+      <file>${PROJECT_ROOT}/actual_function.m</file>
+      <file>${PROJECT_ROOT}/exitAppGUI.fig</file>
+      <file>${PROJECT_ROOT}/exitAppGUI.m</file>
+      <file>${PROJECT_ROOT}/helpnb1.fig</file>
+      <file>${PROJECT_ROOT}/helpnb1.m</file>
+      <file>${PROJECT_ROOT}/helpnb2.fig</file>
+      <file>${PROJECT_ROOT}/helpnb2.m</file>
+      <file>${PROJECT_ROOT}/helpnb3.fig</file>
+      <file>${PROJECT_ROOT}/helpnb3.m</file>
+      <file>${PROJECT_ROOT}/helpnb4.fig</file>
+      <file>${PROJECT_ROOT}/helpnb4.m</file>
+      <file>${PROJECT_ROOT}/helpnb5.fig</file>
+      <file>${PROJECT_ROOT}/helpnb5.m</file>
+      <file>${PROJECT_ROOT}/menu_GUI.fig</file>
+      <file>${PROJECT_ROOT}/nb1Pred.m</file>
+      <file>${PROJECT_ROOT}/nb2Pred.m</file>
+      <file>${PROJECT_ROOT}/nb3Pred.m</file>
+      <file>${PROJECT_ROOT}/nb4Pred.m</file>
+      <file>${PROJECT_ROOT}/nb5Pred.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}/Arsenal-12.jpg</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/danielgrewal/Documents/Undergraduate Dissertation/Application_source_code" name="Arsenal F.C. Premier League Predictions.mlappinstall" optional="false">/Users/danielgrewal/Documents/Undergraduate Dissertation/Application_source_code/Arsenal F.C. Premier League Predictions.mlappinstall</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2014a.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.9.3</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
